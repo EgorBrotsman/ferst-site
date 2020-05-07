@@ -653,6 +653,11 @@ footer div{
    		 margin-right: 0%; 
         }
 	
+	.manu-items {
+    		text-align: center;
+		display: block;
+	}
+	
 	body{
 		margin-top: 0px;
 	}
