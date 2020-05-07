@@ -711,6 +711,7 @@ footer div{
 	
 	footer {
     		text-align: center;
+		display: block;
 	}
 	
 	footer p {
