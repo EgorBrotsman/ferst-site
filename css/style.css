@@ -706,8 +706,21 @@ footer div{
 	}
 
 	.form-text a {
-    padding: 30px 150px;
-}
+    		padding: 30px 150px;
+	}
+	
+	footer {
+    		text-align: center;
+	}
+	
+	footer p {
+    		padding-left: 0%;
+	}
+	
+	footer div {
+    		padding-right: 0%;
+   		padding-top: 38px;
+	}
 
 }
 
