@@ -28,6 +28,16 @@ a{
 	text-decoration: none;
 }
 
+.clik-menu{
+	padding-left: 20px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	color: #e0e0e0;
+	cursor: pointer;
+	background-color: #313030;
+	display: none;
+}
+
 .manu-items{
 	display: flex;
 	justify-content: center;
@@ -653,9 +663,20 @@ footer div{
    		 margin-right: 0%; 
         }
 	
+	.clik-menu{
+		display: block;
+	}
+
+	.manu-items{
+		display: none;
+	}
+
+	.display{
+		display: block;
+	}
+	
 	.manu-items {
     		text-align: center;
-		display: block;
 	}
 	
 	body{
