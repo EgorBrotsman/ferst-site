@@ -9,6 +9,7 @@
 </head>
 <body>
 	<header class="manu">
+		<nav class="clik-menu">Меню</nav>
 		<ul class="manu-items">
 			<li><a href="#">Home</a></li>
 			<li><a href="#">Portfolio</a></li>
@@ -168,5 +169,17 @@
 			<img src="img/facebook.svg" alt="" width="30px" height="auto">
 		</div>
 	</footer>
+	
+	<script>
+		let nav = document.querySelector('.clik-menu');
+
+		nav.addEventListener('click',showPopup);
+
+		function showPopup() {
+			document.querySelector('.manu-items').classList.toggle('display');
+
+			console.log('showPopup работает');
+		}
+	</script>
 </body>
 </html>
